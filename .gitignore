@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+.env
+*.log
+
+# Models (Large files)
+backend/checkpoints/
+
+# Project Data (User masks and images)
+projects/
+backend/output.zip
+backend/*.log
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/dist-electron/
+
+# OS
+.DS_Store
+Thumbs.db
